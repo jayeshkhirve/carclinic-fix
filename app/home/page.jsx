@@ -1,23 +1,18 @@
 'use client'
 
-import { Box, Button, Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid, Typography } from "@mui/material";
 import Home2AppBar from "../palletes/AppBars/Home2AppBar";
 import { makeStyles, styled } from "@mui/styles";
 import theme from "../wrapers/theme";
 import { Montserrat } from "next/font/google";
 import PricingSection from "../palletes/widgets/PricingSection";
-import CheckIcon from '@mui/icons-material/Check';
 import SectionHeading from "../palletes/widgets/sub_widgets/SectionIconHeading";
 import MySvg from '../../public/home/ok_icon.svg'
 import LargeButton from "../palletes/widgets/sub_widgets/LargeButton";
-import VideoBanner from "../palletes/components/VideoBanner";
 import VideoList from "../palletes/components/VideoList";
-import LatestArticle from "../palletes/components/LatestArticle";
 import LatestArticleList from "../palletes/components/LatestArticleList";
-import ProfileAssistSection from "../palletes/widgets/ProfileAssistSection";
-import YTVideoSection from "../palletes/widgets/YTVideoSection";
+// import YTVideoSection from "../palletes/widgets/YTVideoSection";
 import LinksSection from "../palletes/widgets/LinksSection";
-import HowToSection from "../palletes/widgets/HowToSection";
 import ProfileAssistantSection from "../palletes/widgets/ProfileAssistantSection";
 
 const montserrat = Montserrat({
@@ -150,7 +145,7 @@ const Home = () => {
                     </Container>
                 </Box>
 
-                <YTVideoSection />
+                {/* <YTVideoSection /> */}
 
                 <LinksSection />
 
