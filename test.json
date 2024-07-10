@@ -1,0 +1,213 @@
+{
+    "components": [
+        {
+            "id": "9595642d-8056-493e-aa8e-44249ec9319c",
+            "upperPinsState": [
+                25
+            ],
+            "lowerPinsState": [
+                25
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "b8e9f888-ce9c-4604-9ad5-20d9b812a5b7",
+            "upperPinsState": [
+                25
+            ],
+            "lowerPinsState": [
+                25
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "0b8256ac-f256-425d-9398-87e5e760e3c4",
+            "upperPinsState": [
+                25,
+                50
+            ],
+            "lowerPinsState": [
+                25,
+                50
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "49770056-df67-405e-ad00-6007779ecdc7",
+            "upperPinsState": [
+                25
+            ],
+            "lowerPinsState": [
+                25
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "144463d0-33a8-4b3a-819a-612686cb7946",
+            "upperPinsState": [
+                25,
+                50
+            ],
+            "lowerPinsState": [
+                25,
+                50
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "1b1ace35-62d2-4cd2-8924-9b0792ac20e4",
+            "upperPinsState": [
+                25
+            ],
+            "lowerPinsState": [
+                25
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "973d5bd6-7295-4469-966e-400f395f6479",
+            "upperPinsState": [
+                25
+            ],
+            "lowerPinsState": [
+                25
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "331cce70-4725-4b99-bf35-f164945e6633",
+            "upperPinsState": [
+                25
+            ],
+            "lowerPinsState": [
+                25
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "6780bb34-e5e3-411b-9f32-8697b86f42da",
+            "upperPinsState": [],
+            "lowerPinsState": [
+                25
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "bd49fd4b-0814-4367-94ce-c8d14642daa6",
+            "upperPinsState": [
+                25
+            ],
+            "lowerPinsState": [
+                25
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "72a551d4-d9be-40f5-b3fc-83c0963b0fb3",
+            "upperPinsState": [
+                25
+            ],
+            "lowerPinsState": [
+                25
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "5166bf53-2eb2-42bf-9d55-74277ca3d1ed",
+            "upperPinsState": [
+                25,
+                50
+            ],
+            "lowerPinsState": [
+                25,
+                50
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "274b2134-0f6e-4a4d-b170-001c7daff1c9",
+            "upperPinsState": [
+                25,
+                50
+            ],
+            "lowerPinsState": [
+                25,
+                50
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "c9c6ba0a-8582-4a65-b659-a8d9e6dd33ac",
+            "upperPinsState": [
+                25,
+                50
+            ],
+            "lowerPinsState": [
+                25,
+                50
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "eee27ace-c4b8-4c1f-8713-1d427c730ffa",
+            "upperPinsState": [
+                25,
+                50
+            ],
+            "lowerPinsState": [
+                25,
+                50
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "225bafc7-185a-4c3c-b986-cbd73e115685",
+            "upperPinsState": [
+                25
+            ],
+            "lowerPinsState": [
+                25
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "cb6d6594-220d-4bad-8557-75fb78f13c7f",
+            "upperPinsState": [
+                25,
+                50,
+                75
+            ],
+            "lowerPinsState": [
+                25,
+                50
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "d46fe782-126f-476f-a1bb-d54872572391",
+            "upperPinsState": [
+                25,
+                50,
+                75
+            ],
+            "lowerPinsState": [
+                25,
+                50
+            ],
+            "componentChecks": []
+        },
+        {
+            "id": "8e12a119-a6d1-48bc-abb1-a2e4dfb5e0c3",
+            "upperPinsState": [
+                25,
+                50
+            ],
+            "lowerPinsState": [
+                25,
+                50
+            ],
+            "componentChecks": []
+        }
+    ],
+    "endComponents": []
+}
