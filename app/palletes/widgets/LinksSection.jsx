@@ -33,7 +33,7 @@ export default function LinksSection() {
 
 
     return (
-        <Box>
+        <Box sx={{mt: 4}}>
             <Container maxWidth={'xl'}>
                 <SectionTextHeading text={'Top repair guides for car models'}></SectionTextHeading>
                 <Grid container sx={{ mt: 2 }} rowSpacing={2} >

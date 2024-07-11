@@ -14,6 +14,8 @@ import LatestArticleList from "../palletes/components/LatestArticleList";
 // import YTVideoSection from "../palletes/widgets/YTVideoSection";
 import LinksSection from "../palletes/widgets/LinksSection";
 import ProfileAssistantSection from "../palletes/widgets/ProfileAssistantSection";
+import YTVideoSection from "../palletes/widgets/YTVideoSection";
+import DetailVideoSection from "../palletes/widgets/DetailVideoSection";
 
 const montserrat = Montserrat({
     subsets: ['latin'],
@@ -106,7 +108,7 @@ const Home = () => {
                 <div style={{ height: classes.toolbar }}></div>
 
                 <Box sx={{ backgroundColor: '#152329' }}>
-                    <Container maxWidth={'xl'}>
+                    <Container maxWidth={'xl'} >
                         <Grid container sx={{ pt: 28, pb: 24 }}>
                             <Grid item lg={6} xl={6}>
                                 <CenteredBox >
@@ -129,7 +131,7 @@ const Home = () => {
                     </Container>
                 </Box>
 
-                
+                <DetailVideoSection />
 
                 <ProfileAssistantSection />
 
@@ -145,7 +147,7 @@ const Home = () => {
                     </Container>
                 </Box>
 
-                {/* <YTVideoSection /> */}
+                <YTVideoSection />
 
                 <LinksSection />
 

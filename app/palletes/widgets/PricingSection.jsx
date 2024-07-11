@@ -4,6 +4,7 @@ import { Montserrat } from "next/font/google";
 import { styled } from '@mui/styles';
 import IOSSwitch from './IOSSwitch';
 import CheckIcon from '@mui/icons-material/Check';
+import CheckList from '../components/CheckList';
 
 const montserrat = Montserrat({
     subsets: ['latin'],
@@ -48,7 +49,7 @@ export default function PricingSection() {
                 <Box display={'flex'} justifyItems={'center'} alignItems={'center'} sx={{ mt: 6 }}>
 
                     <Grid container justifyContent="center" columnSpacing={2} rowSpacing={2}>
-                        <Grid item xl={3} sx={{mt: {lg: 5, xl: 5, md: 5, sm: 0, xs: 0} }}>
+                        <Grid item xl={3} sx={{ mt: { lg: 5, xl: 5, md: 5, sm: 0, xs: 0 } }}>
                             <Card variant="outlined" sx={{ textAlign: 'center', pt: 6, pb: 3, px: 3, borderRadius: 4 }}>
                                 <Typography className={montserrat2.className} variant='h6' >Essential</Typography>
                                 <Box display={'flex'} justifyContent={'center'} alignItems={'center'} sx={{ mt: 2, }}>
@@ -56,30 +57,17 @@ export default function PricingSection() {
                                     <Typography sx={{ ml: 1, fontSize: 14, fontWeight: 550 }} color={'#ababab'}>/ MONTH</Typography>
                                 </Box >
 
-                                <List sx={{ mt: 4 }}>
-                                    {texts.map(text => {
-                                        return (
-                                            <ListItem key={Math.random()}>
-                                                <ListItemIcon sx={{ minWidth: '38px' }}>
-                                                    <CheckIcon fontSize='small' sx={{ color: '#006AD3' }} />
-                                                </ListItemIcon>
-                                                <ListItemText
-                                                    primary={text}
-                                                />
-                                            </ListItem>
-                                        )
-                                    })}
-                                </List>
-                                <Button variant="conatianed" fullWidth sx={{ backgroundColor: '#006AD3', height: '48px', color: 'white', mt: {xl: 24, lg: 24, md: 24, sm: 6, xs: 6}, borderRadius: 2 }} >
-                                Subscribe
+                                <CheckList mt={4} minWidth='38px' list={texts} />
+                                <Button variant="conatianed" fullWidth sx={{ backgroundColor: '#006AD3', height: '48px', color: 'white', mt: { xl: 24, lg: 24, md: 24, sm: 6, xs: 6 }, borderRadius: 2 }} >
+                                    Subscribe
                                 </Button>
                             </Card>
                         </Grid>
 
                         <Grid item xl={3}>
-                            <Card  sx={{ textAlign: 'center', borderRadius: 4, backgroundColor: '#152329' }}>
+                            <Card sx={{ textAlign: 'center', borderRadius: 4, backgroundColor: '#152329' }}>
                                 <Box sx={{ backgroundColor: '#006AD3', py: 1 }}>
-                                    <Typography color={'white'} sx={{fontSize: '14px'}}>MOST POPULAR</Typography>
+                                    <Typography color={'white'} sx={{ fontSize: '14px' }}>MOST POPULAR</Typography>
                                 </Box>
                                 <Box sx={{ pt: 6, pb: 3, px: 3 }}>
 
@@ -98,22 +86,22 @@ export default function PricingSection() {
                                                     </ListItemIcon>
                                                     <ListItemText
                                                         primary={text}
-                                                        primaryTypographyProps={{ style: {color: 'white'} }}
+                                                        primaryTypographyProps={{ style: { color: 'white' } }}
                                                         color={'white'}
                                                     />
                                                 </ListItem>
                                             )
                                         })}
                                     </List>
-                                    <Button variant="conatianed" fullWidth sx={{ backgroundColor: '#006AD3', height: '48px', color: 'white', mt: {xl: 24, lg: 24, md: 24, sm: 6, xs: 6}, borderRadius: 2 }} >
-                                    Subscribe
+                                    <Button variant="conatianed" fullWidth sx={{ backgroundColor: '#006AD3', height: '48px', color: 'white', mt: { xl: 24, lg: 24, md: 24, sm: 6, xs: 6 }, borderRadius: 2 }} >
+                                        Subscribe
                                     </Button>
                                 </Box>
 
                             </Card>
                         </Grid>
 
-                        <Grid item xl={3} sx={{mt: {lg: 5, xl: 5, md: 5, sm: 0, xs: 0} }}>
+                        <Grid item xl={3} sx={{ mt: { lg: 5, xl: 5, md: 5, sm: 0, xs: 0 } }}>
                             <Card variant="outlined" sx={{ textAlign: 'center', pt: 6, pb: 3, px: 3, borderRadius: 4 }}>
                                 <Typography className={montserrat2.className} variant='h6' >Essential</Typography>
                                 <Box display={'flex'} justifyContent={'center'} alignItems={'center'} sx={{ mt: 2, }}>
@@ -121,21 +109,8 @@ export default function PricingSection() {
                                     <Typography sx={{ ml: 1, fontSize: 14, fontWeight: 550 }} color={'#ababab'}>/ MONTH</Typography>
                                 </Box >
 
-                                <List sx={{ mt: 4 }}>
-                                    {texts.map(text => {
-                                        return (
-                                            <ListItem key={Math.random()}>
-                                                <ListItemIcon sx={{ minWidth: '38px' }}>
-                                                    <CheckIcon fontSize='small' sx={{ color: '#006AD3' }} />
-                                                </ListItemIcon>
-                                                <ListItemText
-                                                    primary={text}
-                                                />
-                                            </ListItem>
-                                        )
-                                    })}
-                                </List>
-                                <Button variant="conatianed" fullWidth sx={{ backgroundColor: '#006AD3', height: '48px', color: 'white', mt: {xl: 24, lg: 24, md: 24, sm: 6, xs: 6}, borderRadius: 2 }} >
+                                <CheckList mt={4} minWidth='38px' list={texts} />
+                                <Button variant="conatianed" fullWidth sx={{ backgroundColor: '#006AD3', height: '48px', color: 'white', mt: { xl: 24, lg: 24, md: 24, sm: 6, xs: 6 }, borderRadius: 2 }} >
                                     Subscribe
                                 </Button>
                             </Card>
