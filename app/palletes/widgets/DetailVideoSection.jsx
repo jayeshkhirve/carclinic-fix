@@ -34,7 +34,9 @@ export default function DetailVideoSection() {
 
                             <Grid item xl={6} lg={6} >
                                 <Box display={'flex'} alignContent={'center'} alignItems={'center'} justifyContent={'center'} justifyItems={'center'} sx={{px: {xl: 0, lg: 0, md: 6, sm: 6, xs: 6}}}>
-                                    <Image alt='Hello'  width={576} height={670}  src="/home/bg-tablet.png" srcset="/home/bg-tablet-400w.avif 400w, /home/bg-tablet-600w.avif 600w, /home/bg-tablet-800w.avif 800w, /home/bg-tablet-1000w.avif 1000w" sizes="(max-width: 450px) 400px, (max-width: 600px) 576px, (max-width: 800px) 576px, (min-width: 801px) 576px"  layout="intrinsic"/>
+                                    {/* <Image alt='Hello'  width={576} height={670}  src="/home/bg-tablet.png" srcset="/home/bg-tablet-400w.avif 400w, /home/bg-tablet-600w.avif 600w, /home/bg-tablet-800w.avif 800w, /home/bg-tablet-1000w.avif 1000w" sizes="(max-width: 450px) 400px, (max-width: 600px) 576px, (max-width: 800px) 576px, (min-width: 801px) 576px"  layout="intrinsic"/> */}
+                                    {/* <img width={576} height={670}  src="/home/bg-tablet.png" srcset="/home/bg-tablet-400w.avif 400w, /home/bg-tablet-600w.avif 600w, /home/bg-tablet-800w.avif 800w, /home/bg-tablet-1000w.avif 1000w" sizes="(max-width: 450px) 400px, (max-width: 600px) 576px, (max-width: 800px) 576px, (min-width: 801px) 576px"/> */}
+                                    <img src='https://placehold.co/1600x400/png' srcSet='https://placehold.co/400x100/png 570w, https://placehold.co/800x200/png 800w , https://placehold.co/1600x400/png 1600w ' />
                                    {/* src='/home/bg-tablet.png'  width={576} height={670}  layout="intrinsic" */}
                                 </Box>
 
