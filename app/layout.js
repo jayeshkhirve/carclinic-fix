@@ -15,16 +15,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="manifest" href="/manifest.json"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="manifest" href="/manifest.json" />
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
       </head>
 
-      <body className={inter.className} style={{overflowY: 'hidden',height: '100%', backgroundColor: 'white', padding: 0, margin: 0}}>
+      <body className={inter.className} style={{ overflowY: 'hidden', height: '100%', backgroundColor: 'white', padding: 0, margin: 0 }}>
         <ReduxProviderWrapper >
           <ThemeProvider theme={theme}>
-          {children}
+            {children}
           </ThemeProvider>
-          
+
         </ReduxProviderWrapper>
       </body>
 

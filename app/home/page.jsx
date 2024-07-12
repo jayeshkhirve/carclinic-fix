@@ -16,6 +16,9 @@ import LinksSection from "../palletes/widgets/LinksSection";
 import ProfileAssistantSection from "../palletes/widgets/ProfileAssistantSection";
 import YTVideoSection from "../palletes/widgets/YTVideoSection";
 import DetailVideoSection from "../palletes/widgets/DetailVideoSection";
+import PdfListSection from "../palletes/widgets/PdfListSection";
+import NotificationSection from "../palletes/widgets/NotificationSection";
+import InfoComponent from "../palletes/components/InfoComponent";
 
 const montserrat = Montserrat({
     subsets: ['latin'],
@@ -91,6 +94,52 @@ const articles = [{
     title: 'Toll Roads in Europe: How Much Will You Pay for EU Vignettes?'
 }]
 
+const pdfList = [{
+    title: 'How to change a number plate light on the Ford Transit Mk7 van – replacement guide',
+    img: '',
+    size: '200kb',
+    link: '#'
+}, {
+    title: 'How to change a number plate light on the Ford Transit Mk7 van – replacement guide',
+    img: '',
+    size: '200kb',
+    link: '#'
+}, {
+    title: 'How to change a number plate light on the Ford Transit Mk7 van – replacement guide',
+    img: '',
+    size: '200kb',
+    link: '#'
+}, {
+    title: 'How to change a number plate light on the Ford Transit Mk7 van – replacement guide',
+    img: '',
+    size: '200kb',
+    link: '#'
+}, {
+    title: 'How to change a number plate light on the Ford Transit Mk7 van – replacement guide',
+    img: '',
+    size: '200kb',
+    link: '#'
+}, {
+    title: 'How to change a number plate light on the Ford Transit Mk7 van – replacement guide',
+    img: '',
+    size: '200kb',
+    link: '#'
+}, {
+    title: 'How to change a number plate light on the Ford Transit Mk7 van – replacement guide',
+    img: '',
+    size: '200kb',
+    link: '#'
+}, {
+    title: 'How to change a number plate light on the Ford Transit Mk7 van – replacement guide',
+    img: '',
+    size: '200kb',
+    link: '#'
+}, {
+    title: 'How to change a number plate light on the Ford Transit Mk7 van – replacement guide',
+    img: '',
+    size: '200kb',
+    link: '#'
+}]
 
 const Home = () => {
     const useStyles = makeStyles({
@@ -131,6 +180,15 @@ const Home = () => {
                     </Container>
                 </Box>
 
+                <Container maxWidth={'xl'}>
+                    <InfoComponent isRight={true}/>
+
+                </Container>
+
+                <NotificationSection />
+
+                <PdfListSection list={pdfList} />
+
                 <DetailVideoSection />
 
                 <ProfileAssistantSection />
@@ -143,7 +201,7 @@ const Home = () => {
 
                     <Container maxWidth={'xl'}>
                         <SectionHeading icon={<MySvg />} text='Top repair guides' />
-                        <LatestArticleList articles={articles}/>
+                        <LatestArticleList articles={articles} />
                     </Container>
                 </Box>
 
