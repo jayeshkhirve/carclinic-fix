@@ -38,7 +38,7 @@ export default function NotificationSection() {
                                 <Grid item xs={12} xl={12}>
                                     <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} textAlign={'center'} alignItems={'center'}>
                                         <Typography color={'#fff'} className={montserrat.className} sx={{ fontSize: 20, mt: 6 }}>Want to get more useful information?</Typography>
-                                        <Typography color={'#ababab'} sx={{ fontSize: 14, mt: 1 }}>Ask questions or share your repair experience on the car forum. Subscribe to updates so you don't miss out on new guides.</Typography>
+                                        <Typography color={'#ababab'} sx={{ fontSize: 14, mt: 1 }}>Ask questions or share your repair experience on the car forum. Subscribe to updates so you dont miss out on new guides.</Typography>
                                     </Box>
                                 </Grid>
 

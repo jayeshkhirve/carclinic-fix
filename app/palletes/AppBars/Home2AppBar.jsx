@@ -106,7 +106,7 @@ const Home2AppBar = () => {
                             <Stack spacing={{ xl: 6, lg: 6, md: 3, }} direction={'row'}>
                                 {links.map(item => {
                                     return (
-                                        <LinkComponent title={item.title} link={'#'} />
+                                        <LinkComponent key={item.title} title={item.title} link={'#'} />
                                     )
                                 })}
                             </Stack>
